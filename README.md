@@ -67,3 +67,29 @@ Proyecto/
 └── README.md
 └── imagen
     └── motogrupo.jpg
+
+
+🎓 Reseña Educativa
+
+Este proyecto fue desarrollado como práctica educativa de iniciación en:
+
+Desarrollo Web
+HTML
+CSS
+JavaScript
+
+Aplicando conocimientos básicos adquiridos en formación tecnológica impulsada por:
+
+💻 Kodigo.org
+
+y
+
+🇸🇻 MINEDUCYT
+
+Ministerio de Educación de El Salvador
+
+Con el propósito de fortalecer las habilidades digitales y el aprendizaje de programación web moderna.
+
+👨‍💻 Autor
+
+Proyecto desarrollado con fines educativos y prácticos para aprendizaje de desarrollo web frontend.
