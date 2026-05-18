@@ -55,20 +55,6 @@ Se utilizó para agregar interactividad:
 - Reinicio automático del formulario
 
 ---
-
-# 📂 Estructura del Proyecto
-
-```bash
-Proyecto/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-└── imagen
-    └── motogrupo.jpg
-
-
 🎓 Reseña Educativa
 
 Este proyecto fue desarrollado como práctica educativa de iniciación en:
@@ -93,3 +79,28 @@ Con el propósito de fortalecer las habilidades digitales y el aprendizaje de pr
 👨‍💻 Autor
 
 Proyecto desarrollado con fines educativos y prácticos para aprendizaje de desarrollo web frontend.
+
+
+
+
+
+
+
+
+
+
+
+# 📂 Estructura del Proyecto
+
+```bash
+Proyecto/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+└── imagen
+    └── motogrupo.jpg
+
+
+
