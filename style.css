@@ -1,0 +1,274 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Poppins', sans-serif;
+  background:#0b0b0b;
+  color:white;
+}
+
+/* NAVBAR */
+
+header{
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1000;
+  background:rgba(0,0,0,0.8);
+  backdrop-filter:blur(10px);
+}
+
+.navbar{
+  width:90%;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 0;
+}
+
+.logo{
+  font-size:2rem;
+  font-family:'Oswald', sans-serif;
+  font-weight:700;
+  color:#ff6b00;
+  letter-spacing:2px;
+}
+
+.nav-links{
+  display:flex;
+  gap:25px;
+  list-style:none;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  transition:0.3s;
+  font-weight:500;
+}
+
+.nav-links a:hover{
+  color:#ff6b00;
+}
+
+/* HERO */
+
+.hero{
+  height:100vh;
+
+  background:
+  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)),
+  url('C:\Users\LENOVO\Desktop\biker\imagen\motogrupo.jpeg');
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+
+  padding:20px;
+}
+
+.hero-content{
+  max-width:800px;
+}
+
+.hero h1{
+  font-size:4rem;
+  font-family:'Oswald', sans-serif;
+  margin-bottom:20px;
+  text-transform:uppercase;
+  color:#ff6b00;
+}
+
+.hero p{
+  font-size:1.2rem;
+  line-height:1.8;
+  margin-bottom:30px;
+}
+
+.btn{
+  display:inline-block;
+  padding:15px 35px;
+  background:#ff6b00;
+  color:white;
+  text-decoration:none;
+  border-radius:50px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:white;
+  color:#111;
+  transform:translateY(-3px);
+}
+
+/* SECTIONS */
+
+section{
+  padding:100px 10%;
+}
+
+.title{
+  text-align:center;
+  font-size:3rem;
+  margin-bottom:50px;
+  font-family:'Oswald', sans-serif;
+  color:#ff6b00;
+}
+
+/* ABOUT */
+
+.about{
+  display:flex;
+  gap:40px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.about img{
+  width:100%;
+  max-width:500px;
+  border-radius:20px;
+}
+
+.about-text{
+  flex:1;
+}
+
+.about-text p{
+  line-height:1.9;
+  margin-bottom:20px;
+}
+
+/* BENEFITS */
+
+.benefits{
+  background:#111;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+  gap:25px;
+}
+
+.card{
+  background:#1a1a1a;
+  padding:35px;
+  border-radius:20px;
+  text-align:center;
+  transition:0.4s;
+  border:1px solid #222;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  border-color:#ff6b00;
+}
+
+.card h3{
+  margin:20px 0;
+  color:#ff6b00;
+}
+
+/* REGISTER */
+
+.register{
+  background:
+  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),
+  url('https://images.unsplash.com/photo-1517846693594-1567da72af75?q=80&w=1600&auto=format&fit=crop');
+
+  background-size:cover;
+  background-position:center;
+}
+
+.form-container{
+  max-width:700px;
+  margin:auto;
+  background:rgba(17,17,17,0.95);
+  padding:40px;
+  border-radius:20px;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+input,
+select,
+textarea{
+  padding:15px;
+  border:none;
+  border-radius:10px;
+  background:#222;
+  color:white;
+  font-size:1rem;
+}
+
+textarea{
+  resize:none;
+  height:120px;
+}
+
+button{
+  padding:15px;
+  background:#ff6b00;
+  color:white;
+  border:none;
+  border-radius:10px;
+  font-size:1rem;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:white;
+  color:#111;
+}
+
+/* FOOTER */
+
+footer{
+  background:#000;
+  text-align:center;
+  padding:30px;
+  font-size:0.9rem;
+  border-top:1px solid #222;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+  .hero h1{
+    font-size:2.8rem;
+  }
+
+  .navbar{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .title{
+    font-size:2.2rem;
+  }
+
+}
